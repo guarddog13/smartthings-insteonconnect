@@ -425,7 +425,7 @@ def initialize() {
 	pollHandler() //first time polling
     
     //automatically update devices status every 5 mins
-	runEvery5Minutes(poll)
+	runEvery1Minute(poll)
 }
 
 def pollHandler() {
